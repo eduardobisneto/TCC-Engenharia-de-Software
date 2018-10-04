@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Common.Entity\API.Common.Entity.csproj" />
+    <ProjectReference Include="..\API.Interface\API.Logic.Interface.csproj" />
+    <ProjectReference Include="..\API.Repository.Interface\API.Repository.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Administrativo\" />
+    <Folder Include="Financeiro\" />
+    <Folder Include="Recepcao\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "API.Logic/1.0.0": {
+        "dependencies": {
+          "API.Common.Entity": "1.0.0",
+          "API.Logic.Interface": "1.0.0",
+          "API.Repository.Interface": "1.0.0"
+        },
+        "runtime": {
+          "API.Logic.dll": {}
+        }
+      },
+      "API.Common.Entity/1.0.0": {
+        "runtime": {
+          "API.Common.Entity.dll": {}
+        }
+      },
+      "API.Logic.Interface/1.0.0": {
+        "dependencies": {
+          "API.Common.Entity": "1.0.0"
+        },
+        "runtime": {
+          "API.Logic.Interface.dll": {}
+        }
+      },
+      "API.Repository.Interface/1.0.0": {
+        "dependencies": {
+          "API.Common.Entity": "1.0.0"
+        },
+        "runtime": {
+          "API.Repository.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "API.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Common.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Logic.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API.Repository.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
