@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.1.4" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.2.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Common.Entity\API.Common.Entity.csproj" />
+    <ProjectReference Include="..\API.Repository.Interface\API.Repository.Interface.csproj" />
+    <ProjectReference Include="..\API.Repository.Mapper\API.Repository.Mapper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Administrativo\" />
+    <Folder Include="Financeiro\" />
+    <Folder Include="Recepcao\" />
+  </ItemGroup>
+
+</Project>
